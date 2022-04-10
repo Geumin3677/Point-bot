@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.31.0",
+    "discord.js": "^13.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "pointbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "dplycmd" : "node deploy-commands.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
